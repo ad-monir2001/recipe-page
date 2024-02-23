@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --font-1: "Young Serif", serif;
+    --font-2: "Outfit", sans-serif;
+
+    --color-neutral-1: hsl(0, 0%, 100%);
+    --color-neutral-2: hsl(330, 100%, 98%);
+    --color-neutral-3: hsl(30, 54%, 90%);
+    --color-neutral-4: hsl(30, 18%, 87%);
+    --color-neutral-5: hsl(30, 10%, 34%);
+    --color-neutral-6: hsl(24, 5%, 18%);
+
+    --color-primary-1: hsl(14, 45%, 36%);
+    --color-primary-2: hsl(332, 51%, 32%);
+}
+
+
+/* ! Style rule for hero section */
+
+.hero{
+    margin: 2rem;
+}
+
+.hero img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hero__text{
+    max-width: 750px;
+}
+.hero h1{
+    font-family: var(--font-1);
+    font-weight: 400;
+    font-size: 2em;
+    color: var(--color-neutral-6);
+    margin-top: 3rem;
+}
+
+.hero p{
+    font-family: var(--font-2);
+    color: var(--color-neutral-5);
+    line-height: 25px;
+}
+
+/* ! Style rule for preparation */
+
+.preparation{
+    margin: 2rem;
+    background: var(--color-neutral-2);
+    background-blend-mode: lighten;
+    padding: 1.5rem;
+    font-family: var(--font-2);
+    border-radius: 8px;
+}
+
+.preparation h2{
+    color: var(--color-primary-2);
+}
+
+.preparation li::marker,
+.ingredients li::marker{
+    color: var(--color-primary-2);
+    
+}
+.preparation li{
+    margin-left: -12px;
+    color: var(--color-neutral-5);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.hilighted{
+    font-weight: 600;
+    color: var(--color-neutral-5);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+/* ! Style rule for Ingredients */
+
+.ingredients{
+    margin: 2rem;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2{
+    font-family: var(--font-1);
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--color-primary-1);
+}
+
+.ingredients li{
+    font-family: var(--font-2);
+    margin-left: -10px;
+    color: var(--color-neutral-5);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 25px;
+}
+
+hr{
+    color:var(--color-neutral-4);
+    margin: 2rem 0;
+}
+
+/* ! Style rule for instructions */
+
+.instructions{
+    margin: 2rem;
+}
+
+.instructions li::marker{
+    color: var(--color-primary-2);
+    font-weight: 600;
+    font-family: var(--font-2);
+}
+
+.instructions li{
+    font-family: var(--font-2);
+    margin-left: -20px;
+    color: var(--color-neutral-5);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 25px;
+}
+
+.hilighte{
+    font-weight: 600;
+    color: var(--color-neutral-5);
+    font-size: 20px;
+}
+
+/* ! style rules for nutrition */
+
+.nutrition{
+    margin: 2rem;
+}
+
+.nutrition p{
+    font-family: var(--font-2);
+    color: var(--color-neutral-5);
+
+}
+
+.texts{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    border-bottom: 1px solid var(--color-neutral-4);
+}
+
+.wight{
+    color: var(--color-primary-2);
+    font-weight: 600;
+}
+
+.attribution{
+    background: #112A46;
+    color: var(--color-neutral-1);
+    padding: 2rem;
+    text-align: center;
+    font-family: var(--font-1);
+}
+.attribution a{
+    text-decoration: none;
+    color: var(--color-primary-1);
+}
